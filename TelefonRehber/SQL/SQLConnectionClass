@@ -10,7 +10,7 @@ namespace Telefon_Rehberi.Cls
 {
     public class SQLConnectionClass
     {
-        private static string SQLConnectionString = @"Server = MUSTAFA\SQL2017; Database = Telefon_Rehberi; Trusted_Connection = True;";
+        private static string SQLConnectionString = @"Server = IBRAHIM\SQL2017; Database = Telefon_Rehberi; Trusted_Connection = True;";
         private static SqlConnection con = new SqlConnection();
         private static SqlDataAdapter da = new SqlDataAdapter();
         private static SqlCommand com = new SqlCommand();
